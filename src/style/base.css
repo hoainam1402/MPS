@@ -1,0 +1,252 @@
+
+/******
+    Flex class section
+*******/
+.d-flex{
+    display: flex !important;
+}
+
+.flex-inline{
+    display: inline-flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-jsp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-jsa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-jse{
+    justify-content: space-evenly;
+}
+
+.flex-align-center{
+    align-items: center;
+}
+
+.flex-1 {
+    flex: 1;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+/************** 
+    DISPLAY SECTION
+***************/
+
+.m-div {
+    display: block;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.none{
+    display: none;
+}
+
+.block{
+    display: block;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+/******
+    Padding Section
+*******/
+
+
+.m-pt4 {
+    padding-top: 4px;
+}
+
+.m-pb4{
+    padding-bottom: 4px;
+}
+
+.m-pr4 {
+    padding-right: 4px;
+}
+
+.m-pl4 {
+    padding-left: 4px;
+}
+
+.m-pr6 {
+    padding-right: 6px;
+}
+
+.m-pl6 {
+    padding-left: 6px;
+}
+
+.m-pr8{
+    padding-right: 8px;
+}
+
+.m-pl8{
+    padding-left: 8px;
+}
+
+.m-pt8{
+    padding-top: 8px !important;
+}
+
+.m-pb8{
+    padding-bottom: 8px;
+}
+
+.m-pt16{
+    padding-top: 16px !important;
+}
+
+/******
+    Margin Section
+*******/
+
+.m-m0{
+    margin: 0 !important;
+}
+
+.m-ml4 {
+    margin-left: 4px;
+}
+
+.m-mr4 {
+    margin-right: 4px;
+}
+
+.m-ml8 {
+    margin-left: 8px;
+}
+
+.m-mr8 {
+    margin-right: 8px;
+}
+
+.m-mt16{
+    margin-top: 16px;
+}
+
+.m-mb16{
+    margin-bottom: 16px;
+}
+
+.m-mr16 {
+    margin-right: 16px;
+}
+
+.m-ml16 {
+    margin-left: 16px;
+}
+
+.m-mr32{
+    margin-right: 32px;
+}
+
+.m-ml32{
+    margin-left: 32px;
+}
+
+/***********
+    DIMENSION SECTION
+************/
+
+.m-h8{
+    height: 8px;
+}
+
+.m-h16{
+    height: 16px;
+}
+
+.m-h32{
+    height: 32px;
+}
+
+.m-w100{
+    width: 100% !important;
+}
+
+.m-w1{
+    width: 1px;
+}
+
+
+
+
+
+/************** 
+    BORDER SECTION 
+*********************/
+
+.border{
+    border: 1px solid #000;
+}
+
+.m-border-y{
+    height: 100%;
+    width: 1px;
+    background-color: #e1e1e1;
+}
+
+.m-color-white{
+    background-color: #fff;
+}
+
+
+/*************
+    TEXT SECTION
+**************/
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.fs-16{
+    font-size: 16px;
+
+}
+
+.fs-14{
+    font-size: 14px;
+}
+
+.fs-12{
+    font-size: 12px;
+}
+
+
+

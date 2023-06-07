@@ -1,0 +1,275 @@
+
+/* Base Icon class */
+.mi-32{
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+}
+
+.mi-24{
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.mi-20{
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.mi-18{
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
+    min-height: 18px;
+}
+
+.mi-16{
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+}
+
+/* Icon in login */
+
+.mi-task-logo{
+    background: url(@/assets/icon/icon.svg) -608px -64px no-repeat;
+}
+
+.mi-carret-down-white{
+    -webkit-mask-image: url(@/assets/icon/icon.svg);
+    -moz-mask-image: url(@/assets/icon/icon.svg);
+    -ms-mask-image: url(@/assets/icon/icon.svg);
+    -o-mask-image: url(@/assets/icon/icon.svg);
+    mask-image: url(@/assets/icon/icon.svg);
+    -webkit-mask-position: -232px -104px;
+    -moz-mask-position: -232px -104px;
+    -ms-mask-position: -232px -104px;
+    -o-mask-position: -232px -104px;
+    mask-position: -232px -104px;
+    -webkit-mask-repeat: no-repeat;
+    -moz-mask-repeat: no-repeat;
+    -ms-mask-repeat: no-repeat;
+    -o-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+.mi-carret-right-white{
+    -webkit-mask-image: url(@/assets/icon/icon.svg);
+    -moz-mask-image: url(@/assets/icon/icon.svg);
+    -ms-mask-image: url(@/assets/icon/icon.svg);
+    -o-mask-image: url(@/assets/icon/icon.svg);
+    mask-image: url(@/assets/icon/icon.svg);
+    -webkit-mask-position: -296px -104px;
+    -moz-mask-position: -296px -104px;
+    -ms-mask-position: -296px -104px;
+    -o-mask-position: -296px -104px;
+    mask-position: -296px -104px;
+    -webkit-mask-repeat: no-repeat;
+    -moz-mask-repeat: no-repeat;
+    -ms-mask-repeat: no-repeat;
+    -o-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+.mi-plus-white{
+    -webkit-mask-image: url(@/assets/icon/icon.svg);
+    -moz-mask-image: url(@/assets/icon/icon.svg);
+    -ms-mask-image: url(@/assets/icon/icon.svg);
+    -o-mask-image: url(@/assets/icon/icon.svg);
+    mask-image: url(@/assets/icon/icon.svg);
+    -webkit-mask-position: -164px -100px;
+    -moz-mask-position: -164px -100px;
+    -ms-mask-position: -164px -100px;
+    -o-mask-position: -164px -100px;
+    mask-position: -164px -100px;
+    -webkit-mask-repeat: no-repeat;
+    -moz-mask-repeat: no-repeat;
+    -ms-mask-repeat: no-repeat;
+    -o-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+.mi-search{
+    -webkit-mask-image: url(@/assets/icon/icon.svg);
+    -moz-mask-image: url(@/assets/icon/icon.svg);
+    -ms-mask-image: url(@/assets/icon/icon.svg);
+    -o-mask-image: url(@/assets/icon/icon.svg);
+    mask-image: url(@/assets/icon/icon.svg);
+    -webkit-mask-position: -164px -132px;
+    -moz-mask-position: -164px -132px;
+    -ms-mask-position: -164px -132px;
+    -o-mask-position: -164px -132px;
+    mask-position: -164px -132px;
+    -webkit-mask-repeat: no-repeat;
+    -moz-mask-repeat: no-repeat;
+    -ms-mask-repeat: no-repeat;
+    -o-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+.mi-notification{
+    -webkit-mask-image: url(@/assets/icon/icon.svg);
+    -moz-mask-image: url(@/assets/icon/icon.svg);
+    -ms-mask-image: url(@/assets/icon/icon.svg);
+    -o-mask-image: url(@/assets/icon/icon.svg);
+    mask-image: url(@/assets/icon/icon.svg);
+    -webkit-mask-position: -340px -836px;
+    -moz-mask-position: -340px -836px;
+    -ms-mask-position: -340px -836px;
+    -o-mask-position: -340px -836px;
+    mask-position: -340px -836px;
+    -webkit-mask-repeat: no-repeat;
+    -moz-mask-repeat: no-repeat;
+    -ms-mask-repeat: no-repeat;
+    -o-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
+.mi-question {
+    -webkit-mask-image: url('@/assets/icon/icon.svg');
+    -moz-mask-image: url('@/assets/icon/icon.svg');
+    -ms-mask-image: url('@/assets/icon/icon.svg');
+    -o-mask-image: url('@/assets/icon/icon.svg');
+    mask-image: url('@/assets/icon/icon.svg');
+    -webkit-mask-position: -324px -388px;
+    -moz-mask-position: -324px -388px;
+    -ms-mask-position: -324px -388px;
+    -o-mask-position: -324px -388px;
+    mask-position: -324px -388px;
+    -webkit-mask-repeat: no-repeat;
+    -moz-mask-repeat: no-repeat;
+    -ms-mask-repeat: no-repeat;
+    -o-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+.mi-book{
+    -webkit-mask-image: url('@/assets/icon/icon.svg');
+    -moz-mask-image: url('@/assets/icon/icon.svg');
+    -ms-mask-image: url('@/assets/icon/icon.svg');
+    -o-mask-image: url('@/assets/icon/icon.svg');
+    mask-image: url('@/assets/icon/icon.svg');
+    -webkit-mask-position: -676px -676px;
+    -moz-mask-position: -676px -676px;
+    -ms-mask-position: -676px -676px;
+    -o-mask-position: -676px -676px;
+    mask-position: -676px -676px;
+    -webkit-mask-repeat: no-repeat;
+    -moz-mask-repeat: no-repeat;
+    -ms-mask-repeat: no-repeat;
+    -o-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background-color: #666666;
+}
+
+.mi-show-detail{
+    -webkit-mask-image: url('@/assets/icon/icon.svg');
+    -moz-mask-image: url('@/assets/icon/icon.svg');
+    -ms-mask-image: url('@/assets/icon/icon.svg');
+    -o-mask-image: url('@/assets/icon/icon.svg');
+    mask-image: url('@/assets/icon/icon.svg');
+    -webkit-mask-position: -740px -292px;
+    -moz-mask-position: -740px -292px;
+    -ms-mask-position: -740px -292px;
+    -o-mask-position: -740px -292px;
+    mask-position: -740px -292px;
+    -webkit-mask-repeat: no-repeat;
+    -moz-mask-repeat: no-repeat;
+    -ms-mask-repeat: no-repeat;
+    -o-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background-color: #eeeeef;
+}
+
+
+.mi-home{
+    -webkit-mask-image: url('@/assets/icon/icon.svg');
+    -moz-mask-image: url('@/assets/icon/icon.svg');
+    -ms-mask-image: url('@/assets/icon/icon.svg');
+    -o-mask-image: url('@/assets/icon/icon.svg');
+    mask-image: url('@/assets/icon/icon.svg');
+    -webkit-mask-position: -36px -132px;
+    -moz-mask-position: -36px -132px;
+    -ms-mask-position: -36px -132px;
+    -o-mask-position: -36px -132px;
+    mask-position: -36px -132px;
+    -webkit-mask-repeat: no-repeat;
+    -moz-mask-repeat: no-repeat;
+    -ms-mask-repeat: no-repeat;
+    -o-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+.mi-my-task{
+    -webkit-mask-image: url('@/assets/icon/icon.svg');
+    -moz-mask-image: url('@/assets/icon/icon.svg');
+    -ms-mask-image: url('@/assets/icon/icon.svg');
+    -o-mask-image: url('@/assets/icon/icon.svg');
+    mask-image: url('@/assets/icon/icon.svg');
+    -webkit-mask-position: -516px -132px;
+    -moz-mask-position: -516px -132px;
+    -ms-mask-position: -516px -132px;
+    -o-mask-position: -516px -132px;
+    mask-position: -516px -132px;
+    -webkit-mask-repeat: no-repeat;
+    -moz-mask-repeat: no-repeat;
+    -ms-mask-repeat: no-repeat;
+    -o-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+
+.mi-chart{
+    -webkit-mask-image: url('@/assets/icon/icon.svg');
+    -moz-mask-image: url('@/assets/icon/icon.svg');
+    -ms-mask-image: url('@/assets/icon/icon.svg');
+    -o-mask-image: url('@/assets/icon/icon.svg');
+    mask-image: url('@/assets/icon/icon.svg');
+    -webkit-mask-position: -644px -36px;
+    -moz-mask-position: -644px -36px;
+    -ms-mask-position: -644px -36px;
+    -o-mask-position: -644px -36px;
+    mask-position: -644px -36px;
+    -webkit-mask-repeat: no-repeat;
+    -moz-mask-repeat: no-repeat;
+    -ms-mask-repeat: no-repeat;
+    -o-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+.mi-collapse{
+    background: url('@/assets/icon/icon.svg') -676px -644px no-repeat;
+}
+
+.mi-setting{
+    -webkit-mask-image: url('@/assets/icon/icon.svg');
+    -moz-mask-image: url('@/assets/icon/icon.svg');
+    -ms-mask-image: url('@/assets/icon/icon.svg');
+    -o-mask-image: url('@/assets/icon/icon.svg');
+    mask-image: url('@/assets/icon/icon.svg');
+    -webkit-mask-position: -644px -324px;
+    -moz-mask-position: -644px -324px;
+    -ms-mask-position: -644px -324px;
+    -o-mask-position: -644px -324px;
+    mask-position: -644px -324px;
+    -webkit-mask-repeat: no-repeat;
+    -moz-mask-repeat: no-repeat;
+    -ms-mask-repeat: no-repeat;
+    -o-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    background-color: #eeeeef;
+}

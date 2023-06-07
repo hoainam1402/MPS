@@ -1,0 +1,26 @@
+.m-sidebar{
+    height: calc(100vh - 56px);
+    width: 0;
+    padding-top: 20px;
+    background-color: #000;
+    background-color: rgba(0,0,0,.7);
+    position: relative;
+    color: #fff;
+    min-width: 260px;
+
+}
+
+.m-tab-item {
+    height: 40px;
+    display: block;
+}
+
+.m-tab-item:hover{
+    background: var(--surface-900);
+}
+
+.m-tab-item .m-tab-item-wrapper{
+    padding: 0 16px 0 24px;
+    color: #fff;
+    font-size: 15px;
+}

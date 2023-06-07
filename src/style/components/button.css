@@ -1,0 +1,81 @@
+
+
+.m-button{
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    color: #fff;
+}
+
+.m-btn-context{
+    padding: 0 5px;
+}
+
+.m-btn-border{
+    border: 1px solid var(--border-button-color);
+}
+
+
+.m-button.m-btn-primary{
+    position: relative;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: var(--primary-blue-color);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.m-button.m-btn-primary:hover{
+    background-color: #384fd5;
+    box-shadow: 0 2px 15px rgba(42,126,252,.25);
+    transition: all .5s;
+}
+
+.m-button.m-button-icon:hover {
+    background-color: #D6E9F6;
+}
+
+.m-button.m-button-icon.m-btn-disable{
+    cursor: none;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.m-button-xl{
+    height: var(--button-height-xl);
+    line-height: var(--button-height-xl);
+}
+
+.m-button-m{
+    height: var(--button-height-m) !important;
+    line-height: var(--button-height-m) !important;
+}
+
+.m-split-button{
+    border: 0;
+    outline: 0;
+    color: #fff;
+    padding: 4px 0;
+    border-radius: 24px;
+}
+
+.m-split-button.m-btn-primary{
+    background: rgb(33, 147, 243);
+}
+
+.m-split-button.m-button-m .text{
+    font-size: 13px;
+}
+
+.m-split-button .divider{
+    width: 1px;
+    height: 100%;
+    background-color: #fff;
+}
+
+
+.m-split-button .icon-after{
+}
+

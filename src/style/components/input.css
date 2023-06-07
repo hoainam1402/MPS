@@ -1,0 +1,146 @@
+
+.m-row-input {
+    position: relative;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.m-row-input .m-input-wrapper{
+    width: 100%;
+}
+
+.m-row-input .m-input{
+    font-size: 16px;
+    color: #212121;
+    line-height: 1.2;
+    display: block;
+    background: transparent;
+    border: 1px solid var(--border-input-color);
+    width: 100%;
+    height: 48px;
+    padding: 14px 16px 16px 16px;
+    border-radius: 4px;
+}
+/**
+    Khai báo cho tất cả input
+**/
+
+.m-input:focus-within{
+    border-color: #3892d4 !important;
+}
+
+.m-input:active{
+    border-color: #3892d4 !important;
+}
+
+.m-input[invalid]{
+    border-color: red;
+}
+
+
+.m-checkbox {
+    height: 14px;
+    background-image: url('/src/assets/icon/checkbox.axd');
+    background-position: 50% -2px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.m-checkbox.disable{
+    pointer-events: none;
+    cursor: none;
+}
+
+.m-checkbox.checked {
+    background-image: url('/src/assets/icon/checked.axd');
+}
+
+.m-table thead .m-checkbox{
+    width: 34px;
+}
+
+.m-textarea, .m-textarea:disabled{
+    width: 100%;
+    height: 60px;
+    outline: none;
+    resize: none;
+    border: 1px solid #cfcfcf;
+    padding: 4px 6px;
+    overflow: auto;
+    background-color: #fff;
+    cursor: auto;
+}
+
+.m-textarea:focus, .m-textarea:disabled:focus {
+    border-color: var(--primary-color);
+}
+
+.m-row-input{
+    position: relative;
+}
+
+
+.m-row-input > .m-input-error-label {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    z-index: var(--z-index-error-label);
+    transform: translate(-50%, 10px);
+    background-color: #333;
+    color: #fff;
+    padding: 6px;
+    white-space: nowrap;
+    display: none;
+  }
+  
+  .m-row-input > .m-input-border[invalid]:hover ~ .m-input-error-label,
+  .m-input-border[invalid]:hover .m-input-error-label{
+    display: block;
+  }
+
+
+
+/* custom input radio  */
+.radio-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.radio-wrapper label{
+	margin-right: 10px;
+    margin-left: 10px;
+}
+
+.radio-wrapper label.disable{
+    pointer-events: none;
+}
+
+input[type="radio"] {
+	opacity: 0;
+}
+
+input[type="radio"] + label {
+	position: relative;
+}
+
+input[type="radio"] + label:before {
+	position: absolute;
+	content: "";
+	top: 50%;
+	left: -24px;
+	transform: translate(0%, -50%);
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	outline-offset: 4px;
+	outline: 1px solid #888888;
+}
+
+input[type="radio"]:checked + label:before {
+	outline-color: var(--primary-color);
+	background: var(--primary-color);
+}
+
+input:disabled{
+    background-color: #e8f6ff;
+}

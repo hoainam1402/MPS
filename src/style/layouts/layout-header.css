@@ -1,0 +1,31 @@
+
+.m-header{
+    width: 100%;
+    height: var(--layout-header-height);
+    padding-left: 24px;
+    position: fixed;
+    top: 0;
+    color: #fff;
+}
+
+.m-header-left-logo{
+    max-width: 185px;
+    max-height: 36px;
+}
+
+.m-header-left-logo__brand{
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 8px;
+    color: #000;
+}
+
+.m-header-right{
+
+}
+
+
+.m-header-right .m-icon-btn{
+    cursor: pointer;
+    background: rgb(97, 97, 97);
+}

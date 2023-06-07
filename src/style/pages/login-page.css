@@ -1,0 +1,99 @@
+.m-login-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('../../assets/background/login.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.m-login-form {
+    width: 400px;
+    background-color: #fff;
+    min-height: 400px;
+    padding: 48px 48px 40px 48px ;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+    box-shadow: 0 12px 20px rgba(0,0,0,.12);
+}
+
+.m-login-form .m-login-form__header {
+    margin: 0 54px 40px;
+    line-height: 32px;
+}
+
+.m-login-form .m-login-form__header .m-login-title {
+    font-size: 24px;
+}
+
+.m-login-form .m-login-form__body {
+    width: 100%;
+}
+
+.m-login-form .m-login-form__body .failure-notifications .notification-text{
+    color: #ff0000;
+    padding-top: 4px;
+    padding-left: 8px;
+}
+
+.m-login-form .m-login-form__body .m-row-input .m-input-login{
+    width: 100%;
+    line-height: 34px;
+    height: 34px;
+    border-radius: 5px;
+    border: solid 1px #ddd;
+    padding-left: 25px;
+    background-color: #FFF !important;
+}
+
+.m-login-form .m-login-form__body .m-row-input .m-input-login:focus{
+    outline-color: var(--secondary-color);
+}
+
+.m-login-form .m-login-form__body .m-row-input .m-login-icon{
+    width: 16px;
+    height: 16px;
+    top: 15px;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.m-login-form .m-login-form__body .m-row-input .m-login-btn{
+    background-color: #0F84E4;
+    border-radius: 5px;
+    border-width: 0;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 30px;
+    height: 30px;
+    width: 250px;
+}
+
+.m-login-form .m-login-form__body .m-row-input .m-login-btn:hover, 
+.m-login-form .m-login-form__body .m-row-input .m-login-btn:active{
+    background-color: #025294;
+}
+
+.m-login-form .m-login-form__footer{
+    background: #0F84E4;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    height: 35px;
+    color: #FFF;
+    border-radius: 0 0 10px 10px;
+}
+
+.m-login-wrapper .m-login-form-note{
+    text-align: center;
+    color: #f9f5f5;
+    font-style: italic;
+    padding-top: 10px;
+    position: absolute;
+}
